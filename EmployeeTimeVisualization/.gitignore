@@ -1,0 +1,120 @@
+# ==========================================
+# Visual Studio
+# ==========================================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# ==========================================
+# Build Results
+# ==========================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+artifacts/
+
+# ==========================================
+# Logs and Temporary Files
+# ==========================================
+[Ll]og/
+[Ll]ogs/
+*.log
+*.tmp
+*.temp
+~$*
+*~
+
+# ==========================================
+# .NET Core / .NET
+# ==========================================
+project.lock.json
+project.fragment.lock.json
+*.deps.json
+*.runtimeconfig.json
+
+# ==========================================
+# NuGet Packages
+# ==========================================
+*.nupkg
+*.snupkg
+packages/
+
+# ==========================================
+# Environment Variables and Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+
+# ==========================================
+# Test Results and Coverage
+# ==========================================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+coverage/
+CodeCoverage/
+
+# ==========================================
+# NUnit / MSTest / xUnit
+# ==========================================
+TestResult.xml
+nunit-*.xml
+*.VisualState.xml
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ==========================================
+# JetBrains Rider / ReSharper
+# ==========================================
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ==========================================
+# MSBuild
+# ==========================================
+*.binlog
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Publish Output
+# ==========================================
+publish/
+Publish/
+
+# ==========================================
+# Backup Files
+# ==========================================
+*.bak
+*.old
